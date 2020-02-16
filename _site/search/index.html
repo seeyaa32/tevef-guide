@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Search | TEVEF</title>
+<meta name="generator" content="Jekyll v3.8.4" />
+<meta property="og:title" content="Search" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="plagiarism" />
+<meta property="og:description" content="plagiarism" />
+<link rel="canonical" href="http://localhost:4000/search/" />
+<meta property="og:url" content="http://localhost:4000/search/" />
+<meta property="og:site_name" content="TEVEF" />
+<script type="application/ld+json">
+{"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/siteicon.png"}},"headline":"Search","@type":"WebPage","url":"http://localhost:4000/search/","description":"plagiarism","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+		<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="TEVEF" />
+
+		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic|Open+Sans:400,400italic,600,600italic,700,700italic|Inconsolata:400,700">
+		<link rel="stylesheet" href="/css/main.css">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+		<link rel="icon" type="image/png" href="/touch-icon.png" sizes="192x192">
+		<link rel="icon" type="image/png" href="/images/favicon.png">
+
+		
+	</head>
+
+	<body>
+		<header>
+			<h1>
+				<a href="/"><img src="/images/emblem.png" width="40" height="40" alt="TEVEF logo"></a>
+				TEVEF
+				<button type="button" class="open-nav" id="open-nav"></button>
+			</h1>
+
+			<form action="/search/" method="get">
+				<input type="text" name="q" id="search-input" placeholder="Search" autofocus>
+				<input type="submit" value="Search" style="display: none;">
+			</form>
+
+			<nav class="full-navigation">
+				<ul>
+					<li class="nav-item top-level ">
+						
+						<a href="/">Welcome</a>
+					</li>
+				</ul>
+
+				<ul>
+					
+					
+						<li class="nav-item top-level ">
+							
+							<a href="/map/">Basic Stuff</a>
+							<ul>
+								
+									<li class="nav-item "><a href="/map/">Map</a></li>
+								
+									<li class="nav-item "><a href="/loot-table/">Loot Table</a></li>
+								
+									<li class="nav-item "><a href="/job-advancement-tree/">Job Advancement Tree</a></li>
+								
+									<li class="nav-item "><a href="/item-builds/">Item Builds</a></li>
+								
+									<li class="nav-item "><a href="/1dps-ranking/">DPS Ranking</a></li>
+								
+							</ul>
+						</li>
+					
+						<li class="nav-item top-level ">
+							
+							<a href="/imp-bosses/">Dungeon Stuff</a>
+							<ul>
+								
+									<li class="nav-item "><a href="/imp-bosses/">Imp Bosses</a></li>
+								
+									<li class="nav-item "><a href="/2puzzle-sanctuary/">Puzzle Sanctuary</a></li>
+								
+									<li class="nav-item "><a href="/city-of-illusions/">City of Illusions</a></li>
+								
+							</ul>
+						</li>
+					
+						<li class="nav-item top-level ">
+							
+							<a href="/quest-guides/">Other Stuff</a>
+							<ul>
+								
+									<li class="nav-item "><a href="/quest-guides/">Quest Guides</a></li>
+								
+									<li class="nav-item "><a href="/3shop-items/">Shop Items</a></li>
+								
+							</ul>
+						</li>
+					
+						<li class="nav-item top-level ">
+							
+							<a href="/archsage/">Skills & Stats</a>
+							<ul>
+								
+									<li class="nav-item "><a href="/archsage/">ArchSage</a></li>
+								
+									<li class="nav-item "><a href="/avenger/">Avenger</a></li>
+								
+									<li class="nav-item "><a href="/champion/">Champion</a></li>
+								
+									<li class="nav-item "><a href="/dark-archtemplar/">Dark ArchTemplar</a></li>
+								
+									<li class="nav-item "><a href="/grand-inquisitor/">Grand Inquisitor</a></li>
+								
+									<li class="nav-item "><a href="/grand-templar/">Grand Templar</a></li>
+								
+									<li class="nav-item "><a href="/hierophant/">Hierophant</a></li>
+								
+									<li class="nav-item "><a href="/master-stalker/">Master Stalker</a></li>
+								
+									<li class="nav-item "><a href="/monster-hunter/">Monster Hunter</a></li>
+								
+									<li class="nav-item "><a href="/phantom-assassin/">Phantom Assassin</a></li>
+								
+									<li class="nav-item "><a href="/professional-witcher/">Professional Witcher</a></li>
+								
+									<li class="nav-item "><a href="/prophetess/">Prophetess</a></li>
+								
+									<li class="nav-item "><a href="/runemaster/">RuneMaster</a></li>
+								
+									<li class="nav-item "><a href="/sniper/">Sniper</a></li>
+								
+									<li class="nav-item "><a href="/summoner/">Summoner</a></li>
+								
+									<li class="nav-item "><a href="/white-wizard/">White Wizard</a></li>
+								
+							</ul>
+						</li>
+					
+				</ul>
+
+				<ul>
+					<li class="nav-item top-level ">
+						<a href="https://tever.xyz/" target="_blank">Latest Version DL</a>
+					</li>
+				</ul>
+				
+				<ul>
+					<li class="nav-item top-level ">
+						<a href="http://www.tevef-changelog.tever.xyz/" target="_blank">Changelog</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<section class="main">
+			<div class="page-header">
+				<h2>Search</h2>
+			</div>
+			<article class="content">
+				<p><span id="search-process">Loading</span> results <span id="search-query-container" style="display: none;">for "<strong id="search-query"></strong>"</span></p>
+<ul id="search-results"></ul>
+
+<script>
+	window.data = {
+		
+			
+				
+					
+					
+
+					"1dps-ranking": {
+						"id": "1dps-ranking",
+						"title": "DPS Ranking",
+						"category": "",
+						"url": " /1dps-ranking/",
+						"content": "Estimated DPS Ranking for R4.15.5 Tier Class Comments S Rank Master Stalker     Arch Sage     White Wizard     Professional Witcher(AOE)         A Rank Phantom Assasin     Monster Hunter     Grand Templar     Sniper     Professional Witcher(ST)         B Rank Summoner         C Rank RuneMaster     Champion     Dark Arch Templar         Shit Rank Grand Inquisitor         Support Rank Prophetess Support classes. No comment needed.   Hierophant Support classes. No comment needed. Avenger Rank Avenger How good god he is depends on the boss bosses. Estimated DPS Ranking for R4.15.5 with godlies in mind and other classes’ buff (Casters not included since magic doesn’t get buffed) Tier Class Comments S Rank Phantom Assassin     Dark Arch Templar     RuneMaster     Professional Witcher(AOE)         A Rank Professional Witcher(ST)     Master Stalker     Monster Hunter     Sniper         B Rank Champion         C Rank Grand Inquisitor  "
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"2puzzle-sanctuary": {
+						"id": "2puzzle-sanctuary",
+						"title": "Puzzle Sanctuary",
+						"category": "",
+						"url": " /2puzzle-sanctuary/",
+						"content": "(Credit to KryptonRazer#3935 for the picture and KuroiHikari#3045 for the doodle)"
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"3shop-items": {
+						"id": "3shop-items",
+						"title": "Shop Items",
+						"category": "",
+						"url": " /3shop-items/",
+						"content": "Inn Icon Item Name Class Short Item Description Gold Power Shard   Minor Potion of Healing All Restores 250 HP. 200 -               Potion of Health All Restores 500 HP. 500 -               Potion of Restoration All Restores 1,000 HP. 1,200 -               Potion of Super Restoration All Restores 5,000 HP. 8,500 -               Minor Potion of Mana All Restores 200 MP. 250 -               Greater Potion of Mana All Restores 400 MP. 600 -               Clarity Potion All Restores 800 MP. 1,500 -               Super Clarity Potion All Restores 4,000 MP. 10,000 -               Life Essence All Restores 20% HP. 40,000 -               Mana Essence All Restores 20% MP. 40,000 -               Scroll of Teleportation All Teleports to a Inn or Campfire.Does not work in Dungeons, Rite of Passage, or during PvP. 5,000 - Weapon Dealer Icon Item Name Class Short Item Description Gold Power Shard   Sharpened Glaive Archer 30 Damage. 1,550 -               Slicer Swordsman, Thief, Witch Hunter 40 Damage. 2,500 -               Dull Warp Blade Templar 16 Damage. 760 -               Fine Sword Swordsman, Thief 10 Damage. 450 -               Staff Initiate, Druid, Acolyte 6 Damage. 300 -               Claws of Striking Swordsman, Thief, Witch Hunter 64 Damage. 5,200 -               Elder Rod Initiate, Druid, Acolyte 200 MP, 5 MP Regen. 2,500 - Armoursmith Icon Item Name Class Short Item Description Gold Power Shard   Stout Shield All 2 Armor. 320 -               Worn Gauntlet Swordsman, Thief, Witch Hunter 4 Armor. 650 -               Circlet All 4 Armor, 200 HP, 200 MP. 1,450 -               Lucky Amulet All 150 HP. 500 -               Leather Armor All 2 Armor. 300 -               Plated Shield Swordsman 3 Armor. 500 -               Elven Armor All 10 Armor. 1,950 -               Arcane Amulet Initiate, Druid, Acolyte 15 INT, 250 MP, 5 MP Regen. 5,800 -               Superior Vizima Gauntlet Swordsman, Templar, Witch Hunter 30 Damage, 20 Armor. 5,800 - Bob the Builder Icon Item Name Class Short Item Description Gold Power Shard   Bethrezen’s Flame Initiate, Druid, Acolyte 500 Int, 40 to All Stats, 25 MP Regen. CTU: Deals 25000 damage to single target, stuns for 2 seconds. 8sec CD. 100,000 42               Hades Shield All 160 Armor, 120 All Stats. 100,000 46               Feral Totem Shapshifter, Runemaster 1,000 Damage, 55 Int, 30% AS. 100,000 32               Tome of Awakening High Templar, Grand Templar 300 INT, 3,000 MP, 30 MP Regen. 100,000 32               Psionic Stone Templar 1,400 Damage, 20% Attack Speed, 30% Spell Resist. 100,000 38               Hand of God Swordsman, Templar, Witch Hunter 1,000 Damage, 60 Armor, 50% AS. 100,000 36               Horadric Staff Initiate, Druid, Acolyte 400 INT, 30 MP Regen. 100,000 30               The Excecutioner Swordsman 1,000 Damage, 120 Str. 40% chance to deal 3x damage. 100,000 32               Windforce Archer 900 Damage, 20% Attack Speed, 50% Enhanced Damage. 100,000 30 Trade Merchant Profession Master Icon Item Name Class Short Item Description Gold Power Shard   Basic Fishing Rod All A fishing rod. 1 -               Good Fishing Rod All Trade with 30 Salmons and Basic Fishing Rod. - -               Silver Fishing Rod All Trade with 20 Trouts, 35 Yellowskin Bass and Good Fishing Rod. - -               Mystic Fishing Rod All Trade with 55 Goldskins, 55 Mutated Bluefishes, 65 Salmons and Silver Fishing Rod - -   Mastercraft Fishing Rod All Trade with 25 Mutated Bluefishes, 40 King Basses, 40 Goldskins, 60 Trouts, 80 Thunderfishes, and Mystic Fishing Rod. - - Free Market Icon Item Name Class Short Item Description Gold Power Shard   Power Shard All Exchange Gold for 1 Power Shard. 50,000 -               Gold All Exchange Power Shard for 50,000 Gold. - 1 Fishies Icon Item Name Class Short Item Description Gold Power Shard   Tuna All Sells for 350 gold each. - -               Salmon All Sells for 750 gold each. Used to trade for Good Fishing Rod and Mystic Fishing Rod. - -               Trout All Sells for 1,700 gold each. Used to trade for Silver Fishing Rod and Mastercraft Fishing Rod. - -               Yellowskin Bass All Sells for 4,550 gold each. Used to trade for Silver Fishing Rod. - -               Mutated Bluefish All Sells for 6,500 gold each Used to trade for Mystic Fishing Rod and Mastercraft Fishing Rod. - -               Fanged Piranha All Sells for 2,100 gold each. - -               Goldskin All Sells for 1,050 gold each. Used to trade for Mystic Fishing Rod and Mastercraft Fishing Rod. - -               Thunderfish All Sells for 2,250 gold each. Used to trade for Mastercraft Fishing Rod. - -               King Bass All Sells for 2,250 gold each. Used to trade for Mastercraft Fishing Rod. - -               Rainbow Fish All Sells for 27 gold each. - -               Flying Wish Fish All Sells for 3,250 gold each. - -"
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"archsage": {
+						"id": "archsage",
+						"title": "ArchSage",
+						"category": "",
+						"url": " /archsage/",
+						"content": "Icon Skill Name Hotkey Skill Description Manacost Cooldown Buff Duration Shard Cost Max Level     Jupiter Lightning Q Deals 36,000 Universal damage within 600 AOE. 6,000 3 - - 30                         Lightning Avenger W Deals 90,000 damage to 16 targets. 8,000 1.5 - - 40                         Boreas E Deals 40,500 Ice damage within 550 AOE. 6,750 6 - - 45         Freeze for 1.5 seconds.                                   Energy Shield R Absorbs 11 damage per MP up to 70% of total damage. - 1 60 - - 30         If below 20% MP, it will regenerate MP back to 25% of Max MP for self and 15% to 3 allies within 450 range within 6 seconds.                                   Twilight’s Eve F Deals 500,000 Universal damage within 700 AOE. 50,000 200 - 8 5                         Warmth Passive Provides 300 MP regeneration - - - - 1     (Learned at 150)                 Base Stats (Level 300)   HP 22040 MP 56835 Damage 3911 - 3921 Armor 34 STR 977 AGI 379 INT 3389 Attack Range 600 Move Speed 380 Attack Speed 1.5 HP Regen 1 MP Regen 150"
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"avenger": {
+						"id": "avenger",
+						"title": "Avenger",
+						"category": "",
+						"url": " /avenger/",
+						"content": "Icon Skill Name Hotkey Skill Description Manacost Cooldown Buff Duration Shard Cost Max Level   Taunt Q Taunts for 6 second within 600 AOE. 1,500 8 - - 1       Deals 2x STR within 600 AOE.                               Fortitude Passive Reduce all physical damage by 7,500. - - - - 30       Cannot be reduced below 50 damage.                               Defiance Aura Increase 300 armor to all allies within 700 AOE. - - - - 30                     Thorns Aura Reflects 60% of both melee and range damage to the attacker. - - - - 30       Applies to all allies within 700 AOE(Only reflects melee damage).                               Sacrifice F Deals 20% of the target’s current HP by reducing 50% of Avenger’s current HP. 1,500 100 - 3 30       Does nothing if target is below 15% of max HP.           Base Stats (Level 300)   HP 64600 MP 17765 Damage 3617 - 3627 Armor 554 STR 3015 AGI 678 INT 1051 Attack Range 100 Move Speed 370 Attack Speed 1.5 HP Regen 1 MP Regen 0.01"
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"champion": {
+						"id": "champion",
+						"title": "Champion",
+						"category": "",
+						"url": " /champion/",
+						"content": "Icon Skill Name Hotkey Skill Description Manacost Cooldown Buff Duration Shard Cost Max Level   Taunt Q Taunts for 6 second within 600 AOE. 1,500 8 - - 1   (Learned at 150)   Buff 5,000 damage to allies for 4 seconds within 600 AOE.                 Buff 5,000 damage to self for 8 seconds.                               Power Slam W Deals 36,000 damage to an aoe of 500 AOE. 900 6 - - 30       Stuns for 1 seconds.                               Rapid Strikes E Increase attack speed by 300%. 600 25 20 - 30       Increase movement speed by 5%.                               Smite R Deals 27,000 damage to a singel target 1,240 18 - - 30       Deals an extra 13,500 Universal Damage as DOT over 3 seconds.                 Stuns for 1.7 seconds.                               Asura Strike F Deals [Current Mana + 35 x STR] + 150,000 Universal damage. 50 50 - 3 30       Mana has to be more than 50% to deal the extra 150,000 Universal damage.                               Fatal Strike Passive 60% chance to deal 4x damage. - - - - 1       30% chance to evade.           Base Stats (Level 300)   HP 65,800 MP 14,805 Damage 3732 - 3742 Armor 466 STR 3,090 AGI 827 INT 827 Attack Range 100 Move Speed 370 Attack Speed 1.4 HP Regen 1 MP Regen 0.01"
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"city-of-illusions": {
+						"id": "city-of-illusions",
+						"title": "City of Illusions",
+						"category": "",
+						"url": " /city-of-illusions/",
+						"content": ""
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"dark-archtemplar": {
+						"id": "dark-archtemplar",
+						"title": "Dark ArchTemplar",
+						"category": "",
+						"url": " /dark-archtemplar/",
+						"content": "Icon Skill Name Hotkey Skill Description Manacost Cooldown Buff Duration Shard Cost Max Level   Dark Psystrike Q Deals 24,000 damage. 2,420 6 - - 30       Stuns for 1 second.                               Grand Finisher Arts Passive 75% chance to deal 3.2x damage. - - - - 30       40% chance to evade.                               Finisher Expertise Passive Increase attack by 360%. - - - - 30                     Forbidden Psi Mastery Passive Increase attack speed by 120%. - - - - 30       Increase movement speed by 20%.                               Power Overwhelming F Increase attack by 50,000. 2,500 30 15 2 25       Increase defense by 750.                 Summons 2 Illusions that attacks the nearest enemy. Illusions cannot kill target.           Base Stats (Level 300)   HP 21060 MP 5010 Damage 9686 - 9696 Armor 416 STR 678 AGI 4884 INT 154 Attack Range 130 Move Speed 400 Attack Speed 1.8 HP Regen 1 MP Regen 0.01"
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"grand-inquisitor": {
+						"id": "grand-inquisitor",
+						"title": "Grand Inquisitor",
+						"category": "",
+						"url": " /grand-inquisitor/",
+						"content": "Icon Skill Name Hotkey Skill Description Manacost Cooldown Buff Duration Shard Cost Max Level   Retribution Q Deals 27,000 Chaos damage within 600 AOE. 4,500 5 - - 30       Stuns for 1 second.                               Ignis Strike W Deals 30,000 damage. 1,800 8 - - 30       Stuns for 3 seconds.                               Conviction Aura Increase attack by 180% to all allies within 600 AOE. - - - - 30                     Holy Repel R Slows movement speed by 20%, 30% chance to miss and silence for 3 seconds within 400 AOE. 4500 16 - - 30                     Fanaticism Aura Increase attack speed by 90% to all allies within 600 AOE. - - - - 30       Increase movement speed by 6% to all allies within 600 AOE.           Base Stats (Level 300)   HP 32100 MP 15005 Damage 3109 - 3119 Armor 204 STR 1425 AGI 2492 INT 827 Attack Range 100 Move Speed 390 Attack Speed 1.4 HP Regen 1 MP Regen 0.01"
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"grand-templar": {
+						"id": "grand-templar",
+						"title": "Grand Templar",
+						"category": "",
+						"url": " /grand-templar/",
+						"content": "Icon Skill Name Hotkey Skill Description Manacost Cooldown Buff Duration Shard Cost Max Level   Psionic Surge Q Deals 24,000 Universal damage within 600 AOE. 3,000 5.5 - - 30                     Psionic Unleash W Deals 24,000 damage. 6,000 20 - - 30       Stuns for 6 seconds.                               Psionic Energy E Deals 17,500 + 28,000 target damage. 4,200 8 - - 35       Deals 28,000 damage within 600 AOE of the initial target.                               Psionic Destruction R Deals 3,000 Universal damage every 0.2 seconds to a random target within 600 AOE for 10 seconds(Double casting doubles the damage but does not refresh the duration). 4500 12 - - 30       5% chance to proc Jet Zanber if Fate is in your inventory.                               Presence of Mind F Instantly resets all skills’ cooldown except this skill. 1,000 80 - 2 5 Base Stats (Level 300)   HP 22540 MP 56070 Damage 4740 - 4750 Armor 21 STR 977 AGI 229 INT 3538 Attack Range 600 Move Speed 400 Attack Speed 1.7 HP Regen 1 MP Regen 100"
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"hierophant": {
+						"id": "hierophant",
+						"title": "Hierophant",
+						"category": "",
+						"url": " /hierophant/",
+						"content": "Icon Skill Name Hotkey Skill Description Manacost Cooldown Buff Duration Shard Cost Max Level         Holy Light Q Heals target for 25,500 HP. 5,000 1 - - 30             Deals damage near the target for 8,500 damage.                                           Kyrie Eleison W Increase target’s armor by 10,000. 4,500 25 10 - 30             Slows melee attacker’s attack speed by 25% and movement speed by 50% for 5 seconds.                                           Liturgy of the Word E Increase target’s attack speed by 300%. 3,000 10 12 - 30                                 Gospel R Increase target’s attack by 210%. 4500 12.5 12 - 30             Increase target’s armor by 30.                                           Resurrection F Resurrect all dead allies within 600 AOE. 30,000 100 - 5 30             Does not go into cooldown if no one is resurrected.                       No shard is used and MP is refunded if no one is resurrected.                 Base Stats (Level 300)   HP 27120 MP 45365 Damage 3333 - 3343 Armor 71 STR 1126 AGI 827 INT 2791 Attack Range 500 Move Speed 380 Attack Speed 1.5 HP Regen 1 MP Regen 150"
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"imp-bosses": {
+						"id": "imp-bosses",
+						"title": "Imp Bosses",
+						"category": "",
+						"url": " /imp-bosses/",
+						"content": "Jump to: Imp 1 Imp 2 Imp 3 Imp 4 Imp1 Griswold     HP   1,000,000 MP   0 Damage   15,570-15,590 Armor   100(50%) Abilities Disease Cloud(Aura) Plagues heroes within 550 AOE that deals 491 DPS for 12 seconds. Passive 30% chance to deal 3x damage.     20% chance to evade.     True sight.   Harbinger of Doom     HP   2,505,000 MP   403,000 Damage   27,740-24,760 Armor   166(62%) Abilities Tristam Rock Deals 30,000 damage to a target, stuns for 2 seconds. 4sec CD.   Tristam Shield Invulnerable for 5 seconds. 30sec CD. Passive 30% chance to deal 3x damage.     20% chance to evade.     30% spell reduction.     True sight.   Imp2 Furbolg Leader     HP   1,000,000 MP   0 Damage   16,006-16,026 Armor   100(50%) Abilities 1st Stage Boss Spell Deals 8,000 damage within 600 AOE and recude MS for 4 seconds. 8sec CD. Passive 30% chance to deal 3x damage.     30% chance to evade.     True sight.   Overlord Master     HP   1,100,000 MP   0 Damage   16,405-16,425 Armor   110(52%) Abilities 2nd Stage Boss Spell Increase allies’s damage by 300% and defense by and 1200 within 800 AOE. Lasts for 20 seconds. 25sec CD. Passive 40% chance to deal 3x damage.     30% chance to evade.     True sight.   The Rock     HP   1,200,000 MP   0 Damage   19,903-19,923 Armor   120(55%) Abilities 3rd Stage Boss Spell Deals 20,000 damage to a target, stuns for 4 seconds. 5sec CD. Passive 40% chance to deal 3x damage.     30% chance to evade.     Spell Immune.     True sight.   Turtle Boss     HP   1,300,000 MP   0 Damage   19,227-19,247 Armor   130(57%) Abilities 4th Stage Boss Spell Shoots out a wave that deals 30,000 damage. 8sec CD. Passive 40% chance to deal 3x damage.     30% chance to evade.     True sight.   Kel’Thuzard     HP   1,400,000 MP   0 Damage   23,214-23,234 Armor   140(58%) Abilities 5th Stage Boss Spell Burns 12,000 mana and deals the same amount to the target. 10sec CD. Passive 40% chance to deal 3x damage.     30% chance to evade.     True sight.   Sylvanas     HP   1,500,000 MP   0 Damage   24,348-24,368 Armor   150(60%) Passive 20% chance to deal 6x damage.     50% chance to evade.     True sight.   Doppelganger     HP   2,206,000 MP   403,750 Damage   33,355-33,375 Armor   220(69%) Abilities Doppel Stun Deals 35,000 damage to a target, stuns for 4 seconds. 6sec CD.   Spell Steal Steal certain Single Target Spells. Passive 60% chance to deal 3x damage.     50% chance to evade.     30% spell reduction.     True sight.   Imp3 Dragon of Eternal Flame     HP   3,006,000 MP   403,750 Damage   32,400-32,420 Armor   170(63%) Abilities Dragon Fire Deals 60,000 damage in an arc of 450 radius. 14sec CD. Passive 40% chance to deal 3x damage.     30% chance to evade.     30% spell reduction.     True sight.   Dragon of Pure Darkness     HP   3,506,000 MP   403,750 Damage   37,355-37,375 Armor   170(63%) Abilities Dragon Death Deals 55,000 damage to a target, stuns for 4 seconds. 10sec CD. Passive 40% chance to deal 3x damage.     30% chance to evade.     30% spell reduction.     True sight.   Dragon of Cruel Lightning     HP   3,506,000 MP   403,750 Damage   24,790-24,810 Armor   170(63%) Abilities Dragon Lightning Deals 30,000 damage, chain up to 4 targets. 4sec CD. Passive 40% chance to deal 3x damage.     30% chance to evade.     30% spell reduction.     True sight.   Dragon of Infinite Frost     HP   4,006,000 MP   403,750 Damage   28,545-28,565 Armor   170(63%) Abilities Dragon Ice 15% chance to freeze target for 2 seconds and deals 20,000 damage. 1sec CD. Passive 40% chance to deal 3x damage.     30% chance to evade.     Spell Immune.     True sight.   Fusion Dragon     HP   10,508,000 MP   804,500 Damage   55,405-55,425 Armor   374(79%) Abilities Hellfire Deals 30,000 damage within 600 AOE. 5sec CD.   Dragon Lightning Deals 30,000 damage, chain up to 4 targets. 4sec CD.   Fusion Hydra Stun Deals 15,000 damage within 1200 AOE, stuns for 0.75 seconds. 8sec CD.   Dragon Cruel Ruin Deals 50,000 universal damage in an area. 40sec CD.   Arrow Game Prompts directional arrow for players to input. Failure leads to instant death to the player. Passive 60% chance to deal 6x damage.     60% chance to evade.     30% spell reduction.     True sight.   Imp4 Mirage     HP   2,006,000 MP   1,004,500 Damage   22,505-22,525 Armor   190(66%) Abilities Burning Oil Shoots burning oils at a random location, dealing 4,000 8,000 DOT for 5 seconds within 250 AOE. 10sec CD. Passive Command Aura that increase nearby allies damage by 30%     40% chance to deal 3x damage.     30% chance to evade.     True sight.     30% spell reduction.   Icarus     HP   2,006,000 MP   404,500 Damage   30,505-30,525 Armor   190(66%) Abilities Strafe Shoots up to 3 targets at once. Passive 40% chance to deal 3x damage.     30% chance to evade.     30% spell reduction.     True sight.   Trinity     HP   2,006,000 MP   1,004,500 Damage   10,505-10,525 Armor   0(0%) Abilities Summon Militia Summons 3 Militias. 3sec CD.   Aircraft Attack Summons 10 untargetable Zeppelin. Passive 60% chance to deal 6x damage.     60% chance to evade.     True sight.   Aurora     HP   3,006,000 MP   1,004,500 Damage   36,505-36,525 Armor   240(71%) Abilities Cluster Rockets Bombard rockets at random locations, dealing 2,500 damage per rocket within 200 AOE, stuns for 1.5sec. 30sec CD. Passive Command Aura that increase nearby allies damage by 50%     40% chance to deal 3x damage.     30% chance to evade.     True sight.     30% spell reduction.   Infinity     HP   3,006,000 MP   404,500 Damage   40,505-40,525 Armor   240(71%) Abilities Strafe Shoots up to 5 targets at once. Passive 40% chance to deal 3x damage.     30% chance to evade.     30% spell reduction.     True sight.   Liberty     HP   3,006,000 MP   1,004,500 Damage   10,505-10,525 Armor   0(0%) Abilities Summon Destroyer Summons 3 Destroyers. 3sec CD.   Aircraft Attack Summons 20 untargetable Zeppelin. Passive 60% chance to deal 6x damage.     60% chance to evade.     True sight.   The Admiral     HP   17,008,000 MP   1,004,500 Damage   51,516-51,536 Armor   324(76%) Abilities Tristram Shield Invulnerable for 5 seconds. 30sec CD.   Strike of the Abyss Deals 40,000 damage to a target, stuns for 2 seconds. 6sec CD.   Spell Deflect Deflect certain Single Target Spells. 40sec CD.   Spell Steal Steal certain Single Target Spells.   Lightning Shield Deals 5,000 DPS around the targeted unit within 300 AOE for 20 seconds. 10sec CD. Passive 30% spell reduction.     True sight.   The Commander     HP   15,008,000 MP   2,004,500 Damage   56,970-56,990 Armor   324(76%) Abilities Dragon Lightning Deals 30,000 damage, chain up to 4 targets. 4sec CD.   Warstomp Deals 20,000 damage within 1000 AOE, stuns for 2 seconds. 7sec CD.   Commander Stun Deals 35,000 damage within 200 AOE, slows AS and MS by 70% for 5 seconds. 20sec CD.   Hellfire Deals 30,000 damage within 600 AOE. 5sec CD. Passive -150 Armor Aura within 900 AOE.     50% Cleave.     60% chance to deal 6x damage.     60% chance to evade.     35% spell reduction.     True sight.  "
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"item-builds": {
+						"id": "item-builds",
+						"title": "Item Builds",
+						"category": "",
+						"url": " /item-builds/",
+						"content": "Disclamer: Everything here is based purely on my opinion. If you don’t like it, don’t follow it. Easy as ABC. Note 1: HP Requirement without MR: Imp1: 23k, Imp2:25k, Imp3: 68k or 62k, depending on your RNG, Imp4: 60k and above, depending on your skill. Note 2: My build will go with around 68k for non-inspirit build and 65k for inspirit build.(Excluding Avenger, White Wizard, Arch Sage and RuneMaster) (Get more HP if you want to tank all 3 dragons’ magic or pray for good Proph.) Class Role Builds       Swordsman           Champion DPS Tank(Hybrid Tank) Builds           With Godlies Inspirit only Pre-Godlies Pre-Imp3     Whirlwind Inspirit Megaera’s Edge The Patriarch     Inspirit Megaera’s Edge Black Hades Black Hades     Blaze’s Touch 2x Blaze’s Touch 2x Blaze’s Touch 2x The Grandfather     Megaera’s Edge 2x Hellforge Plate 2x Hellforge Plate 2x Ark Royal     2x Hellforge Plate                       Your Stats         HP: 124800 109800 91800 79400   Damage+: 18950 16200 15300 10580   Main Attribute+: 2950 2200 1300 380   Armor: 94% 94% 94% 95%           Avenger Tank Builds           With Godlies Inspirit only Pre-Godlies Pre-Imp3     Whirlwind Inspirit Black Hades Black Hades     Inspirit Neptune’s Eye Neptune’s Eye Titan’s Aegis     2x Hellforge Plate 2x Hellforge Plate 2x Hellforge Plate 2x Grandfather     2x Wrath of the Lich King 2x Wrath of the Lich King 2x Wrath of the Lich King 2x Neptune’s Eye                 Your Stats         HP: 123600 128600 110600 106600   Damage+: 10950 7800 3300 5100   Main Attribute+: 2950 2200 1300 100   Armor: 97% 97% 97% 96%           Initiate           White Wizard Caster Builds           With Godlies Inspirit only Pre-Godlies Pre-Imp3     Raising Heart Inspirit 2x Neptune’s Eye 2x Stone of Jordan     Inspirit Neptune’s Eye 2x Atlantean’s Frozen Heart 2x Neptune’s Eye     2x Atlantean’s Frozen Heart 2x Atlantean’s Frozen Heart 2x Hannah’s Legend 2x Atlantean’s Frozen Heart     2x Hannah’s Legend 2x Hannah’s Legend                                 Your Stats         HP: 36060 56060 56060 72060   Mana: 278320 2333320 233320 145320   Main Attribute+: 11000 7000 6000 2800   Armor: 68% 53% 26% 50%           Arch Sage Caster Builds           With Godlies Inspirit only Pre-Godlies Pre-Imp3     Raising Heart Inspirit 2x Neptune’s Eye 2x Stone of Jordan     Inspirit Neptune’s Eye 2x Atlantean’s Frozen Heart 2x Neptune’s Eye     2x Atlantean’s Frozen Heart 2x Atlantean’s Frozen Heart 2x Hannah’s Legend 2x Atlantean’s Frozen Heart     2x Hannah’s Legend 2x Hannah’s Legend                                 Your Stats         HP: 42040 62440 62040 78040   Mana: 273835 228835 228835 140835   Main Attribute+: 11000 7000 6000 2800   Armor: 68% 53% 26% 50%           Archer           Sniper DPS Builds           With Godlies Inspirit only Pre-Godlies Pre-Imp3     Faith Inspirit Atalanta’s Speed Windforce     Inspirit Atalanta’s Speed Stone of Jordan Stone of Jordan     Neptune’s Eye Neptune’s Eye 2x Atalanta’s Revenge 2x Atalanta’s Speed     Stone of Jordan Stone of Jordan 2x Neptune’s Eye 2x Neptune’s Eye     2x Atalanta’s Revenge 2x Atalanta’s Revenge                     Your Stats         HP: 70740 70740 70740 70740   Damage+: 68368 47405 42805 33324             Main Attribute+: 5000 4600 3600 2400   Armor: 87% 86% 86% 80%                         Monster Hunter DPS Builds           With Godlies Inspirit only Pre-Godlies Pre-Imp3     Faith Inspirit 2x Atalanta’s Speed Windforce     Inspirit Neptune’s Eye 2x Atalanta’s Revenge Eagle Eye     Atalanta’s Speed 2x Atalanta’s Speed 2x Neptune’s Eye 2x Atalanta’s Speed     Neptune’s Eye 2x Atalanta’s Revenge   2x Neptune’s Eye     2x Atalanta’s Revenge                                   Your Stats         HP: 68720 68720 68720 68720   Damage+: 59680 37420 34620 25339   Main Attribute+: 5400 5000 4000 1600   Armor: 87% 86% 85% 78%           Thief           Phantom Assassin DPS Builds     notes     With Godlies Inspirit only Pre-Godlies Pre-Imp3     Tooth of Belial Inspirit Black Hades Stone of Jordan     Inspirit Chaos Grief Chaos Grief Black Hades     Chaos Grief 2x Atalanta’s Revenge Atalanta’s Revenge 2x Atalanta’s Speed     Atalanta’s Revenge 2x Hellforge Plate Hellforge Plate 2x Neptune’s Eye     2x Hellforge Plate   2x Neptune’s Eye                   Your Stats         HP: 65660 65660 75660 71660   Damage+: 47722 34411 21351 19611   Main Attribute+: 5600 5600 2900 2100   Armor: 94% 94% 92% 88%           Master Stalker Tank(Evasion Tank) Builds     notes     With Godlies Inspirit only Pre-Godlies Pre-Imp3     Tooth of Belial Inspirit Atalanta’s Revenge The Patriarch     Inspirit Chaos Grief Chaos Grief Black Hades     Chaos Grief 2x Atalanta’s Revenge Black Hades 2x Atalanta’s Speed     Atalanta’s Revenge 2x Hellforge Plate Neptune’s Eye 2x Neptune’s Eye     2x Hellforge Plate   2x Hellforge Plate                               Your Stats         HP: 71440 71440 73440 69440   Damage+: 28871 16600 10000 9300   Main Attribute+: 5600 5600 3500 1700   Armor: 94% 94% 94% 87%           Templar           Grand Templar Caster Builds     notes     With Godlies(Pure Magic) Inspirit only Pre-Godlies Pre-Imp3     Fate Inspirit Hannah’s Legend Stone of Jordan     Inspirit Atlantean’s Frozen Heart Atlantean’s Frozen Heart Raven’s Insight     Hannah’s Legned Raven’s Insight Stone of Jordan 2x Atlantean’s Frozen Heart     Atlantean’s Frozen Heart Neptune’s Eye Raven’s Insight 2x Neptune’s Eye     Raven’s Insight 2x Hannah’s Legend 2x Neptune’s Eye       Neptune’s Eye                       Your Stats         HP: 68540 68540 76540 76540   Mana: 191570 211570 167570 138570   Main Attribute+: 6300 6300 3700 2700   Armor: 69% 56% 44% 44%           Dark Arch Templar DPS Builds     notes     With Godlies Inspirit only Pre-Godlies Pre-Imp3     Fate Inspirit Megaera’s Edge The Patriarch     Inspirit Megaera’s Edge Blaze’s Touch Raven’s Insight     Megaera’s Edge Hellforge Plate 2x Hellforge Plate 2x Ark Royal     Blaze’s Touch Neptune’s Eye 2x Neptune’s Eye 2x Neptune’s Eye     Hellforge Plate 2x Blaze’s Touch         Neptune’s Eye                       Your Stats         HP: 73060 73060 85060 78660   Damage+: 89252 55248 50408 42756   Main Attribute+: 2800 1600 1200 580   Armor: 86% 90% 93% 88%           Acolyte           Prophetess Healer Builds     notes     With Godlies Inspirit only Pre-Godlies Pre-Imp3     Hope Inspirit Stone of Jordan Stone of Jordan     Inspirit Raven’s Insight Guardian Angel Guardian Angel     Raven’s Insight Atlantean’s Frozen Heart Atlantean’s Frozen Heart 2x Atlantean’s Frozen Heart     Hannah’s Legend Hannah’s Legend Hannah’s Legend 2x Neptune’s Eye     2x Neptune’s Eye 2x Neptune’s Eye 2x Neptune’s Eye                   Your Stats         HP: 93120 93120 75120 75120   Mana: 204865 165865 152365 123365   Main Attribute+: 7300 4300 2400 2400   Armor: 64% 64% 75% 75%           Hierophant Healer Support Builds           With Godlies Inspirit only Pre-Godlies Pre-Imp3     Hope Inspirit Stone of Jordan Stone of Jordan     Inspirit Raven’s Insight Guardian Angel Guardian Angel     Raven’s Insight Atlantean’s Frozen Heart Atlantean’s Frozen Heart 2x Atlantean’s Frozen Heart     Hannah’s Legend Hannah’s Legend Hannah’s Legend 2x Neptune’s Eye     2x Neptune’s Eye 2x Neptune’s Eye 2x Neptune’s Eye                   Your Stats         HP: 90140 90140 72140 72140   Mana: 207100 168100 154600 125600   Main Attribute+: 7300 4300 3400 2400   Armor: 64% 64% 75% 75%           Witch Hunter           Grand Inquisitor Support Builds     notes     With Godlies Inspirit only Pre-Godlies Pre-Imp3     Rune Sihill Inspirit Atalanta’s Revenge The Patriarch     Inspirit Chaos Grief Chaos Grief Black Hades     Chaos Grief 2x Atalanta’s Revenge Black Hades 2x Atalanta’s Speed     Atalanta’s Revenge 2x Hellforge Plate Neptune’s Eye 2x Neptune’s Eye     2x Hellforge Plate   2x Hellforge Plate                   Your Stats         HP: 76100 76100 78100 74100   Damage+: 32285 47970 33810 26630   Main Attribute+: 5600 5600 3500 1700   Armor: 93% 94% 93% 86%           Professional Witcher DPS Builds           With Godlies Inspirit only Pre-Godlies Pre-Imp3     Rune Sihill Inspirit Atalanta’s Revenge The Patriarch     Inspirit Chaos Grief Chaos Grief Black Hades     Chaos Grief 2x Atalanta’s Revenge Black Hades 2x Atalanta’s Speed     Atalanta’s Revenge 2x Hellforge Plate Neptune’s Eye 2x Neptune’s Eye     2x Hellforge Plate   2x Hellforge Plate                   Your Stats         HP: 73520 73520 75520 71520   Damage+: 18400 16600 10000 9300   Main Attribute+: 5600 5600 3500 1700   Armor: 93% 94% 94% 86%           Druid           Summoner Mana Battery Builds     notes     With Godlies Inspirit only Pre-Godlies Pre-Imp3     Reinforce Inspirit Raven’s Insight Raven’s Insight     Inspirit Hannah’s Legend Stone of Jordan Stone of Jordan     Atlantean’s Frozen Heart Raven’s Insight 2x Hannah’s Legend 2x Atlantean’s Frozen Heart     Raven’s Insight Guardian Angel 2x Neptune’s Eye 2x Neptune’s Eye     2x Hannah’s Legend 2x Neptune’s Eye                     Your Stats         HP: 69540 85540 73540 73540   Mana: 239035 153035 194035 136035   Main Attribute+: 9300 3300 4700 2700   Armor: 71% 78% 50% 50%           Runemaster DPS Tank(Hybrid Tank) Builds     notes     With Godlies Inspirit only Pre-Godlies Pre-Imp3     Reinforce Inspirit The Patriarch The Patriarch     Inspirit The Patriarch Black Hades Black Hades     The Patriarch Atlantean’s Frozen Heart Raven’s Insight Raven’s Insight     Raven’s Insight Raven’s Insight Neptune’s Eye Neptune’s Eye     2x Hannah’s Legend 2x Hannah’s Legend 2x Hannah’s Legend 2x Atlantean’s Frozen Heart                 Your Stats(Base Form)         HP: 79020 55020 57020 57020   Damage+: 11100 7900 6000 4000   Main Attribute+: 8300 6300 4400 2400   Armor: 74% 65% 52% 52% Extra Info 1: Armor -&gt; Reduction[%] 1722 -&gt; 95% 2123 -&gt; 96% 2758 -&gt; 97% 390 -&gt; 98% Extra Info 2: GI, MH and Hiero’s aura buff only multiply damage given by stats, not raw damage from items. Extra Info 3: Magic Resistance:** Formulae: 1 - [ 1 - (Item1 Base Resist)(1- Item1 Base Reist)]x100 Example: If you have 30% magic resist item, the total would be: 1-[(1-0.3)(1-0.25)]x100 = 47.5% Magic Resist only counts Base Resist + highest item Magic Resist.(2nd Magic Resist item or more will not be counted. Extra Info 4: Imp3 Burst Damage (For you to decide if you want the extra HP or Damage)   Fire breath Death coil Chain Lightning Total Base MR only 45000 41250 22500 108750 20% MR Item 36600 33550 18300 88450 25% MR Item 34500 31625 17250 83375 30% MR Item 31500 28875 15750 76125 35% MR Item 28500 26125 14250 68875   Cruel Ruins Fire Lightning Stomp Total Base MR only 50000 22500 11250 83750 20% MR Item 50000 18300 9150 77450 25% MR Item 50000 17250 8625 75875 30% MR Item 50000 15750 7875 73625 35% MR Item 50000 14250 7125 71375 notes PhantomAssassin Note 1: (1 &amp; 2)Replace a Hellforge Plate with Neptune if you want more HP. Note 2: (1 &amp; 2 &amp; 3)Dont replace Atalanta’s Speed before getting Chaos Grief. MasterStalker Note 1: (1 &amp; 2)Replace a Hellforge Plate with Neptune’s Eye if you want more HP. Note 2: (1 &amp; 2 &amp; 3)Don’t replace Atalanta’s Speed before getting Chaos Grief. Note 3: (3 &amp; 4)Replace Black Hades with Neptune’s Eye if you want to. Note 4: Replace DPS item with HP items if you are going for tank build. GrandTemplar Note 1: Grand Templar’s Godly build is a little tricky. Feel free to adjust to your heart’s content. Note 2: (1 &amp; 2)Feel free to replace Atlantean’s Frozen Heart to Neptune’s Eye if your Summoner is always giving you MP. If so, you can replace Raven’s Insight to Blaze’s Touch for more DPS. DarkArchTemplar Note 1: (1 &amp; 2)Feel free to replace Hellforge Plate to Neptune’s Eye for more HP. Prophetess Note 1: Feel free to change Raven’s Insight or Neptune’s Eye to Guardian Angel or Hannah’s Legend depending if you want more Armor or MP. GrandInquisitor Note 1: (1)Megaton Blade is better than Chaos Grief if you have no auras buffs. Note 2: (2 &amp; 3)Don’t replace Atalanta’s Speed before getting Chaos Grief. Summoner Note 1: (1)Feel free to replace Raven’s Insight to Neptune’s Eye for more HP. If so, you can replace Atlantean’s Frozen Heart to Guardian Angel for more Armor. Note 2: (2)Feel free to replace Guardian Angel to Hannah’s Legend or Stone of Jordan for more MP. Runemaster Note 1: Build will be adjusted according to Wolf form since it is the most commonly used form. Note 2: Replace DPS item with HP Armor items if you are going for tank build."
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"job-advancement-tree": {
+						"id": "job-advancement-tree",
+						"title": "Job Advancement Tree",
+						"category": "",
+						"url": " /job-advancement-tree/",
+						"content": "First Job Criteria(Lvl 40) Second Job Criteria(Lvl 99) Third Job Criteria(Lvl 150) Fourth Job       Nothing Imperial Knight Clear Rite of Passage Champion Swordsman Kill Frostfang in Icy Highland Knight               Nothing Crusader Clear Rite of Passage Avenger                   Give 1 Power Shard to Hannah Wizard Clear Rite of Passage White Wizard Initiate Nothing Mage               Kill 40 Minions in Arcane Sanctuary Sage Clear Rite of Passage ArchSage                   Kill Lord of Puzzles(Puzzle Sanctuary Boss) Marksman Kill Abominable Hydra(Naga Ruins Boss) Sniper Archer Kill 5 Frost Wolves &amp; 5 Polar Furbolgs Hunter               Kill 15 Centaurs Tracker Kill 50 minions in Rite of Passage Monster Hunter                   Show Assasin Jim Stitches’s Dagger(Drops in Forgotten Crypt) Assasin Kill 50 Dark Elves Phantom Assassin Thief Kill 15 Bandits Rogue               Kill Rufio in the 2nd Town beside the Free Market Stalker Kill Lord de Seis(Oblivion mini-boss) Master Stalker                   Kill 20 Lizardmen(Sorcerer not counted) High Templar Clear Rite of Passage Grand Templar Templar Kill 15 Bandits Arch Templar               Kill 15 Owlkins Dark Templar Kill 80 Dark Elves Dark ArchTemplar                 (Male) Visit Holy Fountain, then talk to Shari, then talk to Skypper, then visit Altar of Highfather Priest Visit Altar of Melitele, Shrine of Highfather, Holy Fountain &amp; Statue of Peace. Hierophant Acolyte Nothing Cleric (Refer here for locations of shrine altar fountain)   You will need to give 10k gold at each location       (Female) Visit Holy Fountain, and kill 10 Wraith &amp; Spectre in Puzzle Labyrinth, then visit Altar of Melitele Matriarch Visit Altar of Melitele, Shrine of Highfather, Holy Fountain &amp; Statue of Peace. Prophetess                   Kill 15 Lizardman Sorcerer Inquisitor Kill 40 Minions in Rite of Passage Grand Inquisitor Witch Hunter Nothing Slayer               Kill 50 Forgotten Forest Minions Witcher Kill 80 Orge at Mt. Twilight Professional Witcher                   Kill 15 Owlkins Shaman Kill Mistress of the Tides(Naga Ruins 2nd Mini-boss) Summoner Druid Nothing Arch Druid               Kill 10 Snap Dragons Shapeshifter Kill 50 Orge RuneMaster Note 1: Nothing means just talking to your master will immediately advance your job. Note 2: Minions mean that anything in that area is counted. Note 3: Trainer locations are in the map."
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"loot-table": {
+						"id": "loot-table",
+						"title": "Loot Table",
+						"category": "",
+						"url": " /loot-table/",
+						"content": "Jump to: Easy 1 Easy 2 Hard 1 Hard 2 Hard 3 Nightmare 1 Nightmare 2 Hell 1 Hell 2 Imp 1 Imp 2 Imp 3 Imp 4 Marine Fortress (Impossible 4) notes Icon Item Name Class Short Item Description   Faith Archer 6,000 Damage, 1,500 Agi, 120% AS, 180% Enhanced Damage.   Fate Templar 10,000 Damage, 1,200 Agi, 2,000 Int, 180% Enhanced Damage.Passive1: 25% chance to deal 20,000 damage to a target.Passive2: 30% chance to deal 25,000 damage in a line.   Hope Acolyte 4,000 Int, 200 MP Regen.Passive1: 20% chance to heal 30% HP of all allies within 600 AOE after casting a spell.Passive2: 10% chance to give 100% physical &amp; magic reduction to all allies within 600 AOE for 5 seconds after casting a spell.   Raising Heart Initiate 4,000 Int.Passive1: 70% chance to deal 25,000 in a line after casting an offesive spell.Passive 2: 40% chance to deal 5xInt Universal damage in a huge line after casting an offesive spell. 2 seconds casting time.   Reinforce Druid 1,200 Str, 1,200 Agi, 3,000 Int.Passive1: 35% chance to deal 18,000 in a line. Limited to one proc per second.Passive2: 50% chance to deal 4xInt Universal damage in a line after casting an offesive spell. 2 seconds casting time.   Rune Sihill Witch Hunter 6,300 Damage, 1200 Agi, 200 AS.Passive: Breaks 5,000 MP per hit and deals the same amount as damage.   Tooth of Belial Thief 6,000 Damage, 1,200 Agi, 180% Enhanced Damage, 20% Evasion.   Whirlwind Swordsman 6,000 Damage, 750 Str, 150% AS.Passive: 20% chance to deal 3xStr in an AOE. Limited to one proc every 3 seconds.CTU: Increase 10,000 Damage, 500 Armor, 100% Spell Resist for 10 seconds. 60sec CD. Dragon Fortress (Impossible 3) notes Icon Item Name Class Short Item Description   Atalanta’s Revenge Archer, Thief, Witch Hunter 4,500 Damage, 1,200 Agi.CTU: Increase AS by 200%, damage taken by 25% for 6 seconds. 15sec CD.   Blaze’s Touch Swordsman, Templar 4,000 Damage, 50% AS, 20% Cleave(200 AOE)(Stacks with other Blaze’s Touch).   Chaos Grief Thief, Witch Hunter 1,000 Agi, 80% AS.40% chance to deal 4.2x damage.   Hannah’s Legend Initiate,Templar, Acolyte, Druid 2,000 Int, 20,000 MP, 35% Spell Resist.Passive: Spell Shield that blocks a spell. 60sec CD.   Hellforge Plate Swordsman, Thief, Templar, Witch Hunter, RuneMaster 1,000 Damage, 400 Armor, 600 Str, 600 Agi, 400 Int.   Megaera’s Edge Swordsman, Templar, Witch Hunter, RuneMaster 4,000 Damage.Passive: 30% chance to deal 12,000 damage over 3 seconds.   Wrath of the Lich King Swordsman 560 Armor, 60 HP Regen.   Inspirit All 1,000 All Stats, 0.05% HP Regen, 0.05% MP Regen, 30% Spell Resist.Passive1: Deals 2x Main Stats Damage in an AOE after 10 attacks spells.Passive2: -30 Armor to nearby enemies .   All Imp4 Godlies All Have a very low chance to obtain, but 2x higher than Imp2. City of Illusion (Impossible 2) notes Icon Item Name Class Short Item Description   Atalanta’s Speed Archer, Thief, Witch Hunter 3,000 Damage, 800 Agi, 60% AS, 20% Evasion.   Atlantean’s Frozen Heart Initiate,Templar, Acolyte, Druid 1,000 Int, 6,000 MP, 75 MP Regen.   Black Hades Swordsman, Thief, Witch Hunter, Runemaster 260 Armor, 100 All Stats, 20% Spell Resist.   Neptune’s Eye All 20,000 HP, 15,000 MP.   Raven’s Insight All 300 All Stats, 50% AS, 120 MS.CTU: Teleport to any Inn Campfire, Lvl.200 to teleport to Unknown Regions. 10sec CD.   The Grandfather Swordsman 2,500 Damage, 400 Armor, 60% AS.   The Patriarch Swordsman, Thief, Templar, Witch Hunter, RuneMaster 1,600 Damage.40% chance to deal 3.5x damage.   All Imp4 Godlies All Have a very low chance to obtain. Tristam (Impossible 1) Icon Item Name Class Short Item Description   Guardian Angel Initiate, Templar, Acolyte, Druid 200 Armor, 30% Spell Resist.   Eagle Eye Archer, Thief, Witch Hunter 2,400 Damage, 30% AS, 20% Evasion.   Hand of Blessed Light Initiate, Templar, Acolyte, Druid 800 Int, 50 MP Regen.   The Ark Royal Swordsman, Thief, Templar, Witch Hunter, RuneMaster 1,800 Damage, 120 Armor, 140 All Stats, 3,000 HP.   The Stone of Jordan All 400 All Stats. Abyssal Labyrinth (Hell 2) Icon Item Name Class Short Item Description   Duriel’s Shell All 200 Armor.   Megaton Blade Thief, Witch Hunter 1,000 Damage.50% chance to deal 3x damage.   Zakarum’s Hand Initiate, Acolyte, Druid 300 Int, 5,000 MP, 15% Spell Resist.   Angel’s Sanctuary Swordsman, Templar, Witch Hunter 230 Armor.   Athena’s Aim Archer 1,400 Damage.   Dawn’s Legacy All 60 Armor, 30% AS, 100 MS.CTU: Teleport to any Inn Campfire except the one in Unknown Regions. 10sec CD.   The Heart of Evo All 6,000 HP, 3,000 MP.   Titan’s Aegis Swordsman 400 Armor. Oblivion (Hell 1) Icon Item Name Class Short Item Description   Atma’s Defense All 40 Armor, 100 All Stats, 20% Spell Resist.   Battle Gauntlets All except Initiate 300 Damage, 40 Armor.   Infernostride All 70 Armor, 60 All Stats, 70 MS.   Lam Esen’s Tome Initiate, Acolyte, Druid 3,000 HP, 3,000 MP, 15 MP Regen.   The Pendant of Nagre Initiate, Acolyte, Druid 400 Int, 1,200 MP, 50 HP Regen.   Double-barrel Rifle Archer 700 Damage.   The Psionic Razor Templar 800 Damage, 10% AS. Forgotten Sewers (Nightmare 2) Icon Item Name Class Short Item Description   Golden Arrows Archer 230 Damage, 30 Agi.   Necklace of Seven Souls Initiate, Acolyte, Druid 300 Int.   Stone of Vsmir Templar 100 Damage, 100 All Stats, 5 MP Regen.   Hexfire’s Edge Swordsman, Thief, Witch Hunter 300 Damage, 15% AS.35% chance to deal 2.5x damage.   Icecrown’s Visage Swordsman, Thief, Witch Hunter 80 Armor, 100 All Stats.   Phoenix Stone All 140 All Stats.   Shield of Unending Flame Swordsman, Thief, Witch Hunter 80 Armor, 25% Spell Resist.   Staff of the Ages Initiate, Acolyte, Druid 400 Int. Naga Ruins (Nightmare 1) Icon Item Name Class Short Item Description   Death Reaver Swordsman 140 Damage, 50 Str.   Ghost Armor Swordsman, Templar, Witch Hunter 40 Armor, 1,500 HP.   Guardian Naga Initiate, Acolyte, Druid 115 Int, 1,500 HP.   Homunculus Initiate, Acolyte, Druid 100 Int, 1,200 MP, 5 MP Regen.   Synergy Blade Templar 180 Damage.   Azurewrath Swordsman, Thief, Witch Hunter 180 Damage.30% chance to deal 2x damage.Frost Attack.   Frostbrand Swordsman, Thief, Witch Hunter 300 Damage.Frost Attack.   The Spirit Shroud All 70 Armor, 15 All Stats, 15% Spell Resist. Puzzle Sanctuary (Hard 3) Icon Item Name Class Short Item Description   Boots of Speed All 5 All Stats, 30 MS.   Arcane Staff Initiate, Druid, Acolyte 80 Int, 5 MP Regen.   Psionic Cuirass Templar 20 Armor, 400 MP.   Ring of Melitele All 30 Int, 20 HP Regen.   Scroll of the Lich Initiate, Druid, Acolyte 95 Int.   Sniper Rifle Archer 80 Damage.   Chillrend Swordsman, Thief, Witch Hunter 120 Damage.Frost Attack.   Dusk’s Legacy Initiate, Druid, Acolyte 100 Int, 15 MP Regen. Centaur Mountain (Hard 2) Icon Item Name Class Short Item Description   Celestial Orb All 15 All Stats, 5 HP Regen   Enchanted Axe Swordsman 50 Damage.   Cunning Edge Swordsman, Thief, Witch Hunter 60 Damage.   Long Rifle Archer 65 Damage.   Shield of the Avenger Swordsman 40 Armor   Warchief’s Pride Swordsman 76 Damage   Mythpowder Rifle Archer 90 Damage, 30 Agi.   Sword of Blessed Flame Swordsman, Thief 100 Damage. Gold Mine (Hard 1) Icon Item Name Class Short Item Description   Belt of Endurance Swordsman 20 Str.   Boots of the Eagle All 18 Agi.   Bracer of the Bear All 2 Armor, 10 Str, 300 HP.   Firebrand All 20 Armor, 15 All Stats.   Helmet of Valor Swordsman, Templar, Witch Hunter 20 All Stats.   Soul Wand Initiate, Druid, Acolyte 55 Int, 15 MP Regen.   VanCliffe’s Armor Swordsman 28 Armor.   Blood Diamond All 40 All Stats. Forgotten Crypt (Easy 2) Icon Item Name Class Short Item Description   Psi Blade Templar 45 Damage.   Reinforced Armor Swordsman, Templar, Witch Hunter 18 Armor.   Stitches’ Dagger Swordsman, Thief 35 Damage.   Stitches’ Totem Initiate, Druid, Acolyte 23 Armor.   Aiur’s Legacy Templar 80 Damage.   BlackGrave Wand Initiate, Druid, Acolyte 45 Int.   Skull Staff Initiate, Druid, Acolyte 500 MP, 10 MP Regen.   Stitches’ Legacy All 50 Damage, 10 Armor. Icy Highland (Easy 1) Icon Item Name Class Short Item Description   Sharp Claws Swordsman, Thief 15 Damage.   Blackpowder Musket Archer 22 Damage.   Crystal Wand Initiate, Druid, Acolyte 10 Damage, 15 Int.   Elderwood Bow Archer 15 Damage, 6 Agi.   Moon Armor All except Initiate 11 Armor.   Superior Wand Initiate, Druid, Acolyte 6 Damage, 200 Mana.   Frostfang Swordsman, Thief, Witch Hunter 40 DamageFrost Attack.   Frost Shield Swordsman 20 Armor. notes Imp4 Note: The drop rate for godlies for the first successful run is 15%, and increased by 5% per subsequent run if no godlies are dropped. If a godly dropped, the chance will reset back to 15%(Capped at 40%, and % resets if you got a godly). Imp2Imp3 Note for Imp2 and Imp3: The estimated % for class-restricted godlies in Imp2 is (0.18 * 1 15 - .0005)100=0.009%, in Imp3 is (0.15 * .002)100=0.03%. As for Inspirit it’s (.15 * 1 15 - .0005)*100=0.95%. Do note that this is just an estimation and should be taken with a grain of salt as if you have really bad luck, no amount of RNGESUS can save you."
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"map": {
+						"id": "map",
+						"title": "Map",
+						"category": "",
+						"url": " /map/",
+						"content": "    Better view"
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"master-stalker": {
+						"id": "master-stalker",
+						"title": "Master Stalker",
+						"category": "",
+						"url": " /master-stalker/",
+						"content": "Icon Skill Name Hotkey Skill Description Manacost Cooldown Buff Duration Shard Cost Max Level   Taunt Q Taunts for 6 second within 600 AOE. 1,500 8 - - 1                     Vanish W Becomes invisible. 1,500 25 20 - 30       Deals 72,000 damage if attacked when skill is active.                 Able to phase through enemies while active.                               Backstab E Deals 30,000 Chaos damage. 1,500 1 - - 30       55% chance of dealing 30,000 x 3 Chaos damage only if MS is behind the target.                 Needs to be behind the target unless the target is taunted.                               Speed Passive Increase attack speed by 210%. - - - - 30       Increase movement speed by 5%                               Stalk F Deals [AGI x 60] damage. 7,500 60 - 3 100                     Master Evasion Passive 85% chance to evade. - - - - 30 Base Stats (Level 300)   HP 27440 MP 12870 Damage 3712 - 3722 Armor 249 STR 977 AGI 3090 INT 678 Attack Range 100 Move Speed 410 Attack Speed 1.2 HP Regen 1 MP Regen 0.01"
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"monster-hunter": {
+						"id": "monster-hunter",
+						"title": "Monster Hunter",
+						"category": "",
+						"url": " /monster-hunter/",
+						"content": "Icon Skill Name Hotkey Skill Description Manacost Cooldown Buff Duration Shard Cost Max Level   Trueshot Aura Aura Increase attack by 180% to all allies within 700 AOE. - - - - 30                     Blade Shield W Releases 5 flying blades. 3,000 45 - - 30       Deals 17,500 chaos damage each hit.                 Lasts 30 seconds.                               Vengeance Passive 50% chance to deal 3x damage. - - - - 30       30% chance to evade.                               Andrenaline Passive Increase attack speed by 120%. - - - - 30       Increase movement speed by 12%.                               Multiple Glaives Passive Throws up to 3 glaives on non-crit attacks within 550 AOE. - 10 - - 4       Reduce target’s armor by 40 for 5 seconds.                 Orb Effect.           Base Stats (Level 300)   HP 28720 MP 12670 Damage 4673 - 4683 Armor 227 STR 1276 AGI 2791 INT 678 Attack Range 500 Move Speed 390 Attack Speed 1.3 HP Regen 1 MP Regen 0.01"
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"phantom-assassin": {
+						"id": "phantom-assassin",
+						"title": "Phantom Assassin",
+						"category": "",
+						"url": " /phantom-assassin/",
+						"content": "Icon Skill Name Hotkey Skill Description Manacost Cooldown Buff Duration Shard Cost Max Level   Phantom Edge Q Deals 27,000 damage. 3,000 10 - - 30       Stuns for 2 seconds.                               Killing Technique Passive Increase damage by 180% - - - - 30                     Eviscerate Passive 60% chance to deal 3.8x damage. - - - - 30                     Speed Passive Increase attack speed by 210%. - - - - 30       Increase movement speed by 5%                               Assasinate F Deals [(Agi x Assasinate Level) x 1.5] damage. 7,500 60 - 3 30 Base Stats (Level 300)   HP 21660 MP 8185 Damage 4290 - 4300 Armor 297 STR 678 AGI 3688 INT 379 Attack Range 100 Move Speed 410 Attack Speed 1.3 HP Regen 1 MP Regen 0.01"
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"professional-witcher": {
+						"id": "professional-witcher",
+						"title": "Professional Witcher",
+						"category": "",
+						"url": " /professional-witcher/",
+						"content": "Icon Skill Name Hotkey Skill Description Manacost Cooldown Buff Duration Shard Cost Max Level   Final Group Style Q Deals 40,000 DPS to nearby enemies. 1,900 5 - - 30       Lasts 2 seconds.                               Final Silver Style Passive Cleave nearby enemies for 100% of damage within 400 AOE in front. - - - - 30                     Avoid Passive 60% chance to evade. - - - - 30                     Ultimate Mutation Passive Increase HP regeneration by 500. - - - - 30       Increase movement speed by 20%.                               36 Strikes of Heavens F Deals [150,000 + target’s MP lost] Universal damage. 7,500 60 - 3 30                     Final Focus Style Passive Burns target’s HP and MP by 2,000 every hit. - - - - 1       Deals 5x the burn amount to target and heals 1 10 to self.                 Orb Effect, and only activates once per second.           Base Stats (Level 300)   HP 29520 MP 12370 Damage 3418 - 3428 Armor 229 STR 1276 AGI 2791 INT 678 Attack Range 100 Move Speed 390 Attack Speed 1.15 HP Regen 30 MP Regen 0.01"
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"prophetess": {
+						"id": "prophetess",
+						"title": "Prophetess",
+						"category": "",
+						"url": " /prophetess/",
+						"content": "Icon Skill Name Hotkey Skill Description Manacost Cooldown Buff Duration Shard Cost Max Level   Holy Light Q Heals target for 25,500 HP. 5,000 1 - - 30       Deals damage near the target for 8,500 damage.                               Sanctus W Heals the initial target by 12,000 HP and bounces to 7 other targets. 7,500 6 - - 30       Deals 12,000 damage to 8 targets near Prophetess.                 Heal and damage is reduced by 10% for every subsequent target.                               Prayer Aura Increase 30% life regeneration to all allies within 600 AOE. - - - - 30       Increase movement speed by 5% to all allies within 600 AOE.                               Rosary Basilica R Heals all allies within 600 AOE by 4,500 HP per second. 5400 10 - - 30       Channels up to 5 seconds.                               Gloria in Excelsis Deo F Provides 7,000 armor to all allies within 600 AOE. 7,500 20 6 1 30 Base Stats (Level 300)   HP 24140 MP 47600 Damage 3482 - 3492 Armor 71 STR 977 AGI 827 INT 2940 Attack Range 500 Move Speed 380 Attack Speed 1.5 HP Regen 1 MP Regen 150"
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"quest-guides": {
+						"id": "quest-guides",
+						"title": "Quest Guides",
+						"category": "",
+						"url": " /quest-guides/",
+						"content": "Note 1: For non-repeateable quest, you will have to create a new game lobby for you to take the quest again. Note 2: For chain quest, you will have to start over from the first quest if you leave your current lobby. Basic Quest Giver Skypper Quest Name EXP Gold Item Level Requirement Repeatable? Details Image Ridding the Satyr 800 200 Lvl.10 &amp; Below Y Kill 5 Satyrs   Satyr Extermination 1500 400 Lvl.15 &amp; Below Y Kill 3 Aggresive Satyrs   Head Hunter 3500 1200 Lvl.10 &amp; Above Y Kill 10 Ice Trolls   Waterworks 4750 1600 Lvl.10 &amp; Above Y Kill 10 Water Elementals   No Rest for the Wicked 9000 3500 Lvl.30 &amp; Above Y Kill 15 Bandits   Hunter in the Night 4250 2000 Lvl.15 &amp; Above Y Kill 15 Shadow Witches   A Dish Best Served Cold 25000 7500 Lvl.15 &amp; Above N Kill Frostfang(Icy Highland Boss)   The Enemy of my Enemy 50000 15000 Lvl.30 &amp; Above N Kill Stiches(Forgotten Crypt Boss)   Arnold the Treasure Hunter Quest Name EXP Gold Item   Repeatable? Details Image Gold Rush 40000 10000 Lvl.50 &amp; Above N Kill The BIg Bad Goblins(Gold Mine Mini-boss)   Immortal’s Final Breath 90000 25000 Lvl.90 &amp; Above Y Kill 3 Tyrants to obtain 3 Artifact Fragment(Snoworc Camp, Cemetary and Unknown Region) Link Squeaky the Erotic Pandaren Quest Name EXP Gold Item   Repeatable? Details Image Vampirism 30000 10 Potion of Restoration Lvl.65 &amp; Above Y Kill 50 Owlkins   Ghastly Appetite 35000 25 Potion of Restoration Lvl.65 &amp; Above Y Talk to Wizard Hannah, then find Harold in City of New Lights(beside the bridge), then kill 50 Bloodthirsty Maniacs at Cemetary Link Sludge Fudge 120000 40 Potion of Restoration Lvl.120 &amp; Above Y Kill 60 Sewer Monsters in Forgotten Sewers   Chain Quest Quest Name EXP Gold Item   Repeatable? Details Quest Giver Image Exploration 1000 200 Lvl.50 &amp; Above N Find Arnold the Treasure Hunter Skypper Link Proving a Worth 45000 5100 Lvl.55 &amp; Above N Kill 40 Lizardman Lizardman Sorcerers &amp; 40 Snap Dragons Arnold   Armoured Pride 75000 20000 Lvl.60 &amp; Above N Kill Engineer VanCliffe (Gold Mine Boss) Arnold   Research and Development 60000 19200 Lvl.120 &amp; Above N Find Master Ember and Kain Arnold Link Deja Vu 80000 16320 Lvl.199 &amp; Above N Enter City of Illusions(Impossible 2) (Note: You don’t have to clear it. Simply enter and out will clear the quest requirement.) Arnold   Sixth Man 60000 910 Lvl.205 &amp; Above N Find Civil Agent Kiba at Glacier Forest Arnold Link Stocking Up 180000 51100 Lvl.210 &amp; Above Y Kill 100 Snap Dragon &amp; 100 Enraged Spirits Kiba  "
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"runemaster": {
+						"id": "runemaster",
+						"title": "RuneMaster",
+						"category": "",
+						"url": " /runemaster/",
+						"content": "Icon Skill Name Hotkey Skill Description Manacost Cooldown Buff Duration Shard Cost Max Level   Taunt Q Taunts for 6 second within 600 AOE. 1500 8 - - 1                     Runic Werebear W Increase HP by 26,500 and MP by 17,900. - 30 - - 5       Increase attack by 16,000, armor by 645.                 Increase base magic resist by 18.75%.                               Runic Werewolf E Increase HP by 16,500 and MP by 12,900. - 30 - - 5       Increase attack by 12,000 and armor by 95.                               Ferocity Passive 50% chance to deal 3.5x damage. - - - - 5       Increase critical damage by 12,500 damage.                               Fury Passive Increase attack speed by 200%. - - - - 40       Increase movement speed by 20%.                               Feral Rage F Increase attack by 35,000. 15000 45 10 2 20       Grants 10% lifesteal.                               Evasion Passive Grants Runic Werebear 50% chance to evade. - - - - 1 Base Stats(Bear) (Level 300)   HP 55520 MP 57380 Damage 6039-6049 Armor 728 STR 1276 AGI 977 INT 2492 Attack Range 100 Move Speed 380 Attack Speed 2.1 HP Regen 30 MP Regen 0.01"
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"sniper": {
+						"id": "sniper",
+						"title": "Sniper",
+						"category": "",
+						"url": " /sniper/",
+						"content": "Icon Skill Name Hotkey Skill Description Manacost Cooldown Buff Duration Shard Cost Max Level   Rapid Shot Q Increase attack speed by 300%. 1,250 27.5 20 - 30                     Enchanted Arrows W Deals additional 12,000 damage. 60 - - - 30       Slow target’s attack speed by 15% for 3 seconds.                 Orb Effect.                               Marksmanship Passive Increase attack by 360%. - - - - 40                     Snipe R Deals [6,000 x (Target’s [Max HP Current HP])] Universal damage. 7,500 60 - 3 45       Has a minimum damage of 100,000 Universal damage.                               Strafe Passive Shoots 7 targets at once. - - - - 5       Orb Effect.                               Focus E Pierce through evasion and deals 2x damage. 3,500 25 10 - 3   (Learned at 150,250,300)   Orb Effect.           Base Stats (Level 300)   HP 22740 MP 12670 Damage 3952 - 3962 Armor 251 STR 977 AGI 3090 INT 678 Attack Range 600 Move Speed 390 Attack Speed 1.3 HP Regen 1 MP Regen 0.01"
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"summoner": {
+						"id": "summoner",
+						"title": "Summoner",
+						"category": "",
+						"url": " /summoner/",
+						"content": "Icon Skill Name Hotkey Skill Description Manacost Cooldown Buff Duration Shard Cost Max Level   Lightning Storm Q Deals 10,000 universal damage per wave within 450 AOE for 3 waves. 6,000 6 - - 30                     Regeneration W Heals target for 18,000 HP over 8 seconds. 3,000 3 - - 30       Heals target for 21,000 MP over 8 seconds.                               Tornado E Deals 18,000 damage in a straight path for 500 distance. 6,000 5 - - 30       Deals an extra 18,000 Universal damage after a short delay.                 Slows movement speed by 45% for 2.9 seconds.                               Arctic Freeze R Deals 30,000 damage within 600 AOE. 4,500 4 - - 30       Slows attack speed by 25% for 3 seconds.                 Slows movement speed by 20% for 3 seconds.                               Armageddon F Deals 120,000 Universal damage within 600 AOE. 25,000 50 - 3 30       Burn targets for 6,000 DPS for 5 seconds(Not Universal damage).           Base Stats (Level 300)   HP 19540 MP 53535 Damage 3991 - 4001 Armor 46 STR 827 AGI 528 INT 3389 Attack Range 500 Move Speed 380 Attack Speed 1.6 HP Regen 1 MP Regen 100"
+					}
+
+					
+				
+			
+		
+			
+				
+					,
+					
+
+					"white-wizard": {
+						"id": "white-wizard",
+						"title": "White Wizard",
+						"category": "",
+						"url": " /white-wizard/",
+						"content": "Icon Skill Name Hotkey Skill Description Manacost Cooldown Buff Duration Shard Cost Max Level   Jupiter’s Thunder Q Deals 36,000 Universal damage within 600 AOE. 6,000 2 - - 30                     Lightning Avenger W Deals 90,000 damage to 16 targets. 8,000 1.5 - - 40                     White Shield E Releases 5 white orbs at max level. 4,500 40 - - 30       Deals 12,000 chaos damage each zap.                 Lasts 24 seconds.                               Energy Shield R Absorbs 11 damage per MP up to 80% of total damage. - 1 60 - - 30       If below 25% MP, converts 50% of received damage into MP until 25% of max MP for self &amp;15% of max MP to 3 allies within 450 range.                               Cruel Ruin F Deals 200,000 Universal damage within 500 AOE. 30,000 70 - 4 30                     Warmth Passive Provides 300 MP regeneration - - - - 1   (Learned at 150)               Base Stats (Level 300)   HP 16060 MP 61320 Damage 4210 - 4220 Armor 34 STR 678 AGI 379 INT 3688 Attack Range 600 Move Speed 380 Attack Speed 1.5 HP Regen 1 MP Regen 150"
+					}
+
+					
+				
+			
+		
+	};
+</script>
+<script src="/scripts/lunr.min.js"></script>
+<script src="/scripts/search.js"></script>
+
+			</article>
+		</section>
+
+		<script>
+			document.getElementById("open-nav").addEventListener("click", function () {
+				document.body.classList.toggle("nav-open");
+			});
+		</script>
+	</body>
+</html>
