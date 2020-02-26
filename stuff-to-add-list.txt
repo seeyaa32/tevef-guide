@@ -1,23 +1,7 @@
-mobile: 
-
-	mobile version navbar scale when zoom-out
-
-	check mobile version without force zoom
-
-	mobile version text too much going to the right --->
-
-	change mobile navbar to better (also a sidebar -> toggle to appear)
-
-	try overflow on first page index for phone
-
-
-useless:
 
 icons to all
 
 link to build simulator
-
-novice item-build
 
 faq link/page
 
