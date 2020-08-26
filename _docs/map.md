@@ -19,6 +19,3 @@ category: Basic Stuff
 
 <a href="https://tever.xyz/maps/teveF/tevefMapOverview" target="_blank">Better view</a>
 
-
-
-![](/images/maplr.png)
