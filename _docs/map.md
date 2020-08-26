@@ -22,6 +22,3 @@ category: Basic Stuff
 
 
 ![](/images/maplr.png)
-[](/images/maplr.png)
-(/images/maplr.png)
-/images/maplr.png
